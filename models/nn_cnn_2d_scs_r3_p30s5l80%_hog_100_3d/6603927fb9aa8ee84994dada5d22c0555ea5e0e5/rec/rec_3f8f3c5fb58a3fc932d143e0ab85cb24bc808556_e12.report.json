@@ -1,0 +1,578 @@
+{
+  "id": "nn_cnn_2d_scs_r3_p30s5l80%_hog_100_3d/6603927fb9aa8ee84994dada5d22c0555ea5e0e5/rec/rec_3f8f3c5fb58a3fc932d143e0ab85cb24bc808556_e12.report",
+  "timestamp": "2020-11-18T04:11:27Z",
+  "accuracy": 0.7944862155388471,
+  "loss": 0.508974946643341,
+  "correct": 634,
+  "incorrect": 164,
+  "total": 798,
+  "confusion": {
+    "B2": {
+      "B2": 72,
+      "B3": 11,
+      "B4": 30,
+      "UPS": 0,
+      "VS": 0,
+      "VSV": 0,
+      "none": 1
+    },
+    "B3": {
+      "B3": 67,
+      "B2": 25,
+      "B4": 20,
+      "UPS": 1,
+      "VS": 0,
+      "VSV": 1,
+      "none": 0
+    },
+    "B4": {
+      "B4": 84,
+      "B2": 15,
+      "B3": 14,
+      "UPS": 0,
+      "VS": 0,
+      "VSV": 0,
+      "none": 1
+    },
+    "UPS": {
+      "UPS": 112,
+      "B2": 0,
+      "B3": 0,
+      "B4": 0,
+      "VS": 0,
+      "VSV": 0,
+      "none": 2
+    },
+    "VS": {
+      "VS": 105,
+      "B2": 0,
+      "B3": 0,
+      "B4": 1,
+      "UPS": 0,
+      "VSV": 4,
+      "none": 4
+    },
+    "VSV": {
+      "VSV": 97,
+      "B2": 0,
+      "B3": 0,
+      "B4": 0,
+      "UPS": 0,
+      "VS": 17,
+      "none": 0
+    },
+    "none": {
+      "none": 97,
+      "B2": 3,
+      "B3": 4,
+      "B4": 9,
+      "UPS": 1,
+      "VS": 0,
+      "VSV": 0
+    }
+  },
+  "failed": [
+    "simple_call_seq/audio/parts_pl30.0ms_s5.0ms_cl80%/sr500000_xpps4000_h512_wHam/hog/B2_C_B_Jt1_16_07_06_042_000685_none.htk",
+    "simple_call_seq/audio/parts_pl30.0ms_s5.0ms_cl80%/sr500000_xpps4000_h512_wHam/hog/B2_C_TR_Jt2_16_06_02_044_000060_none.htk",
+    "simple_call_seq/audio/parts_pl30.0ms_s5.0ms_cl80%/sr500000_xpps4000_h512_wHam/hog/B2_C_TR_Jt2_16_06_02_044_000450_none.htk",
+    "simple_call_seq/audio/parts_pl30.0ms_s5.0ms_cl80%/sr500000_xpps4000_h512_wHam/hog/B2_C_TR_Jt2_16_06_02_044_000530_none.htk",
+    "simple_call_seq/audio/parts_pl30.0ms_s5.0ms_cl80%/sr500000_xpps4000_h512_wHam/hog/B2_C_TR_Jt5_16_07_10_034_002020_none.htk",
+    "simple_call_seq/audio/parts_pl30.0ms_s5.0ms_cl80%/sr500000_xpps4000_h512_wHam/hog/B4_C_TR_Jt2_16_06_02_044_000035_none.htk",
+    "simple_call_seq/audio/parts_pl30.0ms_s5.0ms_cl80%/sr500000_xpps4000_h512_wHam/hog/B4_C_TR_Jt2_16_06_02_044_000630_none.htk",
+    "simple_call_seq/audio/parts_pl30.0ms_s5.0ms_cl80%/sr500000_xpps4000_h512_wHam/hog/C_TO_Jt1_16_06_20_015_045975_none.htk",
+    "simple_call_seq/audio/parts_pl30.0ms_s5.0ms_cl80%/sr500000_xpps4000_h512_wHam/hog/B2_C_TR_Jt2_16_06_02_044_000070_B2.htk",
+    "simple_call_seq/audio/parts_pl30.0ms_s5.0ms_cl80%/sr500000_xpps4000_h512_wHam/hog/B2_C_TR_Jt2_16_06_02_044_000205_B2.htk",
+    "simple_call_seq/audio/parts_pl30.0ms_s5.0ms_cl80%/sr500000_xpps4000_h512_wHam/hog/B2_C_TR_Jt2_16_06_02_044_000330_B2.htk",
+    "simple_call_seq/audio/parts_pl30.0ms_s5.0ms_cl80%/sr500000_xpps4000_h512_wHam/hog/B2_C_TR_Jt5_16_07_10_034_000590_B2.htk",
+    "simple_call_seq/audio/parts_pl30.0ms_s5.0ms_cl80%/sr500000_xpps4000_h512_wHam/hog/B2_C_TR_Jt5_16_07_10_034_000730_B2.htk",
+    "simple_call_seq/audio/parts_pl30.0ms_s5.0ms_cl80%/sr500000_xpps4000_h512_wHam/hog/B2_C_TR_Jt5_16_07_10_034_000930_B2.htk",
+    "simple_call_seq/audio/parts_pl30.0ms_s5.0ms_cl80%/sr500000_xpps4000_h512_wHam/hog/B2_C_TR_Jt5_16_07_10_034_001075_B2.htk",
+    "simple_call_seq/audio/parts_pl30.0ms_s5.0ms_cl80%/sr500000_xpps4000_h512_wHam/hog/B2_C_TR_Jt5_16_07_10_034_001415_B2.htk",
+    "simple_call_seq/audio/parts_pl30.0ms_s5.0ms_cl80%/sr500000_xpps4000_h512_wHam/hog/B2_C_TR_Jt5_16_07_10_034_001455_B2.htk",
+    "simple_call_seq/audio/parts_pl30.0ms_s5.0ms_cl80%/sr500000_xpps4000_h512_wHam/hog/B2_C_TR_Jt5_16_07_10_034_001645_B2.htk",
+    "simple_call_seq/audio/parts_pl30.0ms_s5.0ms_cl80%/sr500000_xpps4000_h512_wHam/hog/C_TO_Jt1_16_06_20_015_063445_B2.htk",
+    "simple_call_seq/audio/parts_pl30.0ms_s5.0ms_cl80%/sr500000_xpps4000_h512_wHam/hog/C_TO_Jt1_16_06_20_029_475470_B2.htk",
+    "simple_call_seq/audio/parts_pl30.0ms_s5.0ms_cl80%/sr500000_xpps4000_h512_wHam/hog/C_TO_Jt1_16_06_20_029_475725_B2.htk",
+    "simple_call_seq/audio/parts_pl30.0ms_s5.0ms_cl80%/sr500000_xpps4000_h512_wHam/hog/C_TO_Jt2_16_06_12_018_017890_B2.htk",
+    "simple_call_seq/audio/parts_pl30.0ms_s5.0ms_cl80%/sr500000_xpps4000_h512_wHam/hog/C_TO_Jt2_16_06_12_018_018005_B2.htk",
+    "simple_call_seq/audio/parts_pl30.0ms_s5.0ms_cl80%/sr500000_xpps4000_h512_wHam/hog/C_TO_Jt2_16_06_12_018_048710_B2.htk",
+    "simple_call_seq/audio/parts_pl30.0ms_s5.0ms_cl80%/sr500000_xpps4000_h512_wHam/hog/C_TO_Jt2_16_06_20_018_047190_B2.htk",
+    "simple_call_seq/audio/parts_pl30.0ms_s5.0ms_cl80%/sr500000_xpps4000_h512_wHam/hog/C_TO_Jt2_16_06_24_015_041240_B2.htk",
+    "simple_call_seq/audio/parts_pl30.0ms_s5.0ms_cl80%/sr500000_xpps4000_h512_wHam/hog/C_TO_Jt2_16_06_25_016_029570_B2.htk",
+    "simple_call_seq/audio/parts_pl30.0ms_s5.0ms_cl80%/sr500000_xpps4000_h512_wHam/hog/C_TO_Jt2_16_06_26_010_148710_B2.htk",
+    "simple_call_seq/audio/parts_pl30.0ms_s5.0ms_cl80%/sr500000_xpps4000_h512_wHam/hog/B4_C_TR_Jt2_16_06_02_044_000640_B4.htk",
+    "simple_call_seq/audio/parts_pl30.0ms_s5.0ms_cl80%/sr500000_xpps4000_h512_wHam/hog/C_TO_Jt2_16_06_25_016_015010_B4.htk",
+    "simple_call_seq/audio/parts_pl30.0ms_s5.0ms_cl80%/sr500000_xpps4000_h512_wHam/hog/C_TO_Jt3_16_06_18_006_029160_B4.htk",
+    "simple_call_seq/audio/parts_pl30.0ms_s5.0ms_cl80%/sr500000_xpps4000_h512_wHam/hog/C_TO_Jt3_16_07_06_006_089675_B4.htk",
+    "simple_call_seq/audio/parts_pl30.0ms_s5.0ms_cl80%/sr500000_xpps4000_h512_wHam/hog/C_TO_Jt3_16_07_09_018_037990_B4.htk",
+    "simple_call_seq/audio/parts_pl30.0ms_s5.0ms_cl80%/sr500000_xpps4000_h512_wHam/hog/C_TO_Jt3_16_07_11_009_267965_B4.htk",
+    "simple_call_seq/audio/parts_pl30.0ms_s5.0ms_cl80%/sr500000_xpps4000_h512_wHam/hog/C_TR_Jt1_16_06_02_109_004550_B4.htk",
+    "simple_call_seq/audio/parts_pl30.0ms_s5.0ms_cl80%/sr500000_xpps4000_h512_wHam/hog/C_TR_Jt1_16_06_02_109_004590_B4.htk",
+    "simple_call_seq/audio/parts_pl30.0ms_s5.0ms_cl80%/sr500000_xpps4000_h512_wHam/hog/C_TR_Jt1_16_06_02_109_004735_B4.htk",
+    "simple_call_seq/audio/parts_pl30.0ms_s5.0ms_cl80%/sr500000_xpps4000_h512_wHam/hog/C_TR_Jt1_16_06_02_109_032260_B4.htk",
+    "simple_call_seq/audio/parts_pl30.0ms_s5.0ms_cl80%/sr500000_xpps4000_h512_wHam/hog/C_TR_Jt2_16_06_02_044_Buzz_001290_B4.htk",
+    "simple_call_seq/audio/parts_pl30.0ms_s5.0ms_cl80%/sr500000_xpps4000_h512_wHam/hog/C_TR_Jt4_16_06_19_013_011945_B4.htk",
+    "simple_call_seq/audio/parts_pl30.0ms_s5.0ms_cl80%/sr500000_xpps4000_h512_wHam/hog/C_TR_Jt6_16_07_12_017_175630_B4.htk",
+    "simple_call_seq/audio/parts_pl30.0ms_s5.0ms_cl80%/sr500000_xpps4000_h512_wHam/hog/C_TR_Jt8_16_07_07_020_007695_B4.htk",
+    "simple_call_seq/audio/parts_pl30.0ms_s5.0ms_cl80%/sr500000_xpps4000_h512_wHam/hog/C_TR_Jt8_16_07_07_020_066115_B4.htk",
+    "simple_call_seq/audio/parts_pl30.0ms_s5.0ms_cl80%/sr500000_xpps4000_h512_wHam/hog/C_TO_Jt2_16_06_26_010_081460_B3.htk",
+    "simple_call_seq/audio/parts_pl30.0ms_s5.0ms_cl80%/sr500000_xpps4000_h512_wHam/hog/C_TO_Jt2_16_06_26_010_301620_B3.htk",
+    "simple_call_seq/audio/parts_pl30.0ms_s5.0ms_cl80%/sr500000_xpps4000_h512_wHam/hog/C_TO_Jt2_16_07_04_023_114655_B3.htk",
+    "simple_call_seq/audio/parts_pl30.0ms_s5.0ms_cl80%/sr500000_xpps4000_h512_wHam/hog/C_TO_Jt2_16_07_04_023_114770_B3.htk",
+    "simple_call_seq/audio/parts_pl30.0ms_s5.0ms_cl80%/sr500000_xpps4000_h512_wHam/hog/C_TO_Jt3_16_06_18_006_076090_B3.htk",
+    "simple_call_seq/audio/parts_pl30.0ms_s5.0ms_cl80%/sr500000_xpps4000_h512_wHam/hog/C_TO_Jt3_16_06_20_017_010870_B3.htk",
+    "simple_call_seq/audio/parts_pl30.0ms_s5.0ms_cl80%/sr500000_xpps4000_h512_wHam/hog/C_TO_Jt3_16_07_06_006_225090_B3.htk",
+    "simple_call_seq/audio/parts_pl30.0ms_s5.0ms_cl80%/sr500000_xpps4000_h512_wHam/hog/C_TO_Jt3_16_07_09_018_013965_B3.htk",
+    "simple_call_seq/audio/parts_pl30.0ms_s5.0ms_cl80%/sr500000_xpps4000_h512_wHam/hog/C_TO_Jt3_16_07_11_009_297895_B3.htk",
+    "simple_call_seq/audio/parts_pl30.0ms_s5.0ms_cl80%/sr500000_xpps4000_h512_wHam/hog/C_TO_Jt3_16_07_11_009_297935_B3.htk",
+    "simple_call_seq/audio/parts_pl30.0ms_s5.0ms_cl80%/sr500000_xpps4000_h512_wHam/hog/C_TO_Jt3_16_07_11_009_298740_B3.htk",
+    "simple_call_seq/audio/parts_pl30.0ms_s5.0ms_cl80%/sr500000_xpps4000_h512_wHam/hog/C_TR_Jt1_16_06_07_058_000815_B3.htk",
+    "simple_call_seq/audio/parts_pl30.0ms_s5.0ms_cl80%/sr500000_xpps4000_h512_wHam/hog/C_TR_Jt1_16_06_07_058_000920_B3.htk",
+    "simple_call_seq/audio/parts_pl30.0ms_s5.0ms_cl80%/sr500000_xpps4000_h512_wHam/hog/C_TR_Jt1_16_06_07_058_086460_B3.htk",
+    "simple_call_seq/audio/parts_pl30.0ms_s5.0ms_cl80%/sr500000_xpps4000_h512_wHam/hog/C_TR_Jt4_16_06_11_013_095990_B3.htk",
+    "simple_call_seq/audio/parts_pl30.0ms_s5.0ms_cl80%/sr500000_xpps4000_h512_wHam/hog/C_TR_Jt4_16_06_11_013_096220_B3.htk",
+    "simple_call_seq/audio/parts_pl30.0ms_s5.0ms_cl80%/sr500000_xpps4000_h512_wHam/hog/C_TR_Jt4_16_06_23_057_154660_B3.htk",
+    "simple_call_seq/audio/parts_pl30.0ms_s5.0ms_cl80%/sr500000_xpps4000_h512_wHam/hog/C_TR_Jt4_16_06_25_005_052260_B3.htk",
+    "simple_call_seq/audio/parts_pl30.0ms_s5.0ms_cl80%/sr500000_xpps4000_h512_wHam/hog/C_TR_Jt4_16_06_25_005_061660_B3.htk",
+    "simple_call_seq/audio/parts_pl30.0ms_s5.0ms_cl80%/sr500000_xpps4000_h512_wHam/hog/C_TR_Jt5_16_06_17_024_053850_B3.htk",
+    "simple_call_seq/audio/parts_pl30.0ms_s5.0ms_cl80%/sr500000_xpps4000_h512_wHam/hog/C_TR_Jt5_16_06_19_071_156115_B3.htk",
+    "simple_call_seq/audio/parts_pl30.0ms_s5.0ms_cl80%/sr500000_xpps4000_h512_wHam/hog/VSV_C_TO_Jt2_16_06_12_018_min165_000160_VSV.htk",
+    "simple_call_seq/audio/parts_pl30.0ms_s5.0ms_cl80%/sr500000_xpps4000_h512_wHam/hog/VSV_C_TO_Jt2_16_06_26_009_000515_VSV.htk",
+    "simple_call_seq/audio/parts_pl30.0ms_s5.0ms_cl80%/sr500000_xpps4000_h512_wHam/hog/VSV_C_TO_Jt2_16_06_26_010_min289_000080_VSV.htk",
+    "simple_call_seq/audio/parts_pl30.0ms_s5.0ms_cl80%/sr500000_xpps4000_h512_wHam/hog/VSV_C_TO_Jt3_16_07_04_021_min83_000025_VSV.htk",
+    "simple_call_seq/audio/parts_pl30.0ms_s5.0ms_cl80%/sr500000_xpps4000_h512_wHam/hog/VSV_C_TR_Jt4_16_06_15_043_min25_000015_VSV.htk",
+    "simple_call_seq/audio/parts_pl30.0ms_s5.0ms_cl80%/sr500000_xpps4000_h512_wHam/hog/VSV_C_TR_Jt5_16_06_21_008_min127_000030_VSV.htk",
+    "simple_call_seq/audio/parts_pl30.0ms_s5.0ms_cl80%/sr500000_xpps4000_h512_wHam/hog/VSV_C_TR_Jt6_16_06_15_082_min65_000095_VSV.htk",
+    "simple_call_seq/audio/parts_pl30.0ms_s5.0ms_cl80%/sr500000_xpps4000_h512_wHam/hog/VSV_C_TR_Jt7_16_07_07_037_min137_000000_VSV.htk",
+    "simple_call_seq/audio/parts_pl30.0ms_s5.0ms_cl80%/sr500000_xpps4000_h512_wHam/hog/VSV_C_TR_Jt7_16_07_10_009_min9_000020_VSV.htk",
+    "simple_call_seq/audio/parts_pl30.0ms_s5.0ms_cl80%/sr500000_xpps4000_h512_wHam/hog/VS_C_TO_Jt2_16_06_24_015_min69_000030_VS.htk",
+    "simple_call_seq/audio/parts_pl30.0ms_s5.0ms_cl80%/sr500000_xpps4000_h512_wHam/hog/VS_C_TO_Jt2_16_07_06_015_min152_000020_VS.htk",
+    "simple_call_seq/audio/parts_pl30.0ms_s5.0ms_cl80%/sr500000_xpps4000_h512_wHam/hog/VS_C_TO_Jt2_16_07_06_015_min152_000280_VS.htk",
+    "simple_call_seq/audio/parts_pl30.0ms_s5.0ms_cl80%/sr500000_xpps4000_h512_wHam/hog/VS_C_TO_Jt3_16_07_11_009_min16_000060_VS.htk",
+    "simple_call_seq/audio/parts_pl30.0ms_s5.0ms_cl80%/sr500000_xpps4000_h512_wHam/hog/VS_C_TR_Jt5_16_06_19_071_min62_000170_VS.htk",
+    "simple_call_seq/audio/parts_pl30.0ms_s5.0ms_cl80%/sr500000_xpps4000_h512_wHam/hog/VS_C_TR_Jt6_16_06_15_016_min26_000080_VS.htk",
+    "simple_call_seq/audio/parts_pl30.0ms_s5.0ms_cl80%/sr500000_xpps4000_h512_wHam/hog/T_BCI_E1_Jt2_15_05_31_097_000185_UPS.htk",
+    "simple_call_seq/audio/parts_pl30.0ms_s5.0ms_cl80%/sr500000_xpps4000_h512_wHam/hog/B2_C_B_Jt1_16_07_06_042_000780_none.htk",
+    "simple_call_seq/audio/parts_pl30.0ms_s5.0ms_cl80%/sr500000_xpps4000_h512_wHam/hog/B2_C_TR_Jt2_16_06_02_044_000455_none.htk",
+    "simple_call_seq/audio/parts_pl30.0ms_s5.0ms_cl80%/sr500000_xpps4000_h512_wHam/hog/B2_C_TR_Jt2_16_06_02_044_000600_none.htk",
+    "simple_call_seq/audio/parts_pl30.0ms_s5.0ms_cl80%/sr500000_xpps4000_h512_wHam/hog/B2_C_TR_Jt5_16_07_10_034_000615_none.htk",
+    "simple_call_seq/audio/parts_pl30.0ms_s5.0ms_cl80%/sr500000_xpps4000_h512_wHam/hog/B2_C_TR_Jt5_16_07_10_034_001400_none.htk",
+    "simple_call_seq/audio/parts_pl30.0ms_s5.0ms_cl80%/sr500000_xpps4000_h512_wHam/hog/B2_C_TR_Jt5_16_07_10_034_001785_none.htk",
+    "simple_call_seq/audio/parts_pl30.0ms_s5.0ms_cl80%/sr500000_xpps4000_h512_wHam/hog/B4_C_TR_Jt2_16_06_02_044_000040_none.htk",
+    "simple_call_seq/audio/parts_pl30.0ms_s5.0ms_cl80%/sr500000_xpps4000_h512_wHam/hog/B4_C_TR_Jt2_16_06_02_044_000690_none.htk",
+    "simple_call_seq/audio/parts_pl30.0ms_s5.0ms_cl80%/sr500000_xpps4000_h512_wHam/hog/C_TO_Jt1_16_06_20_015_046230_none.htk",
+    "simple_call_seq/audio/parts_pl30.0ms_s5.0ms_cl80%/sr500000_xpps4000_h512_wHam/hog/B2_C_TR_Jt2_16_06_02_044_000075_B2.htk",
+    "simple_call_seq/audio/parts_pl30.0ms_s5.0ms_cl80%/sr500000_xpps4000_h512_wHam/hog/B2_C_TR_Jt2_16_06_02_044_000210_B2.htk",
+    "simple_call_seq/audio/parts_pl30.0ms_s5.0ms_cl80%/sr500000_xpps4000_h512_wHam/hog/B2_C_TR_Jt5_16_07_10_034_000735_B2.htk",
+    "simple_call_seq/audio/parts_pl30.0ms_s5.0ms_cl80%/sr500000_xpps4000_h512_wHam/hog/B2_C_TR_Jt5_16_07_10_034_000935_B2.htk",
+    "simple_call_seq/audio/parts_pl30.0ms_s5.0ms_cl80%/sr500000_xpps4000_h512_wHam/hog/B2_C_TR_Jt5_16_07_10_034_001080_B2.htk",
+    "simple_call_seq/audio/parts_pl30.0ms_s5.0ms_cl80%/sr500000_xpps4000_h512_wHam/hog/B2_C_TR_Jt5_16_07_10_034_001275_B2.htk",
+    "simple_call_seq/audio/parts_pl30.0ms_s5.0ms_cl80%/sr500000_xpps4000_h512_wHam/hog/B2_C_TR_Jt5_16_07_10_034_001420_B2.htk",
+    "simple_call_seq/audio/parts_pl30.0ms_s5.0ms_cl80%/sr500000_xpps4000_h512_wHam/hog/B2_C_TR_Jt5_16_07_10_034_001460_B2.htk",
+    "simple_call_seq/audio/parts_pl30.0ms_s5.0ms_cl80%/sr500000_xpps4000_h512_wHam/hog/C_TO_Jt1_16_06_20_015_062450_B2.htk",
+    "simple_call_seq/audio/parts_pl30.0ms_s5.0ms_cl80%/sr500000_xpps4000_h512_wHam/hog/C_TO_Jt1_16_06_20_015_063450_B2.htk",
+    "simple_call_seq/audio/parts_pl30.0ms_s5.0ms_cl80%/sr500000_xpps4000_h512_wHam/hog/C_TO_Jt1_16_06_20_029_468525_B2.htk",
+    "simple_call_seq/audio/parts_pl30.0ms_s5.0ms_cl80%/sr500000_xpps4000_h512_wHam/hog/C_TO_Jt1_16_06_20_029_475475_B2.htk",
+    "simple_call_seq/audio/parts_pl30.0ms_s5.0ms_cl80%/sr500000_xpps4000_h512_wHam/hog/C_TO_Jt2_16_06_12_018_017895_B2.htk",
+    "simple_call_seq/audio/parts_pl30.0ms_s5.0ms_cl80%/sr500000_xpps4000_h512_wHam/hog/C_TO_Jt2_16_06_12_018_018125_B2.htk",
+    "simple_call_seq/audio/parts_pl30.0ms_s5.0ms_cl80%/sr500000_xpps4000_h512_wHam/hog/C_TO_Jt2_16_06_12_018_018300_B2.htk",
+    "simple_call_seq/audio/parts_pl30.0ms_s5.0ms_cl80%/sr500000_xpps4000_h512_wHam/hog/C_TO_Jt2_16_06_12_018_048990_B2.htk",
+    "simple_call_seq/audio/parts_pl30.0ms_s5.0ms_cl80%/sr500000_xpps4000_h512_wHam/hog/C_TO_Jt2_16_06_18_005_027115_B2.htk",
+    "simple_call_seq/audio/parts_pl30.0ms_s5.0ms_cl80%/sr500000_xpps4000_h512_wHam/hog/C_TO_Jt2_16_06_20_018_046850_B2.htk",
+    "simple_call_seq/audio/parts_pl30.0ms_s5.0ms_cl80%/sr500000_xpps4000_h512_wHam/hog/C_TO_Jt2_16_06_20_018_047195_B2.htk",
+    "simple_call_seq/audio/parts_pl30.0ms_s5.0ms_cl80%/sr500000_xpps4000_h512_wHam/hog/C_TO_Jt2_16_06_24_015_041245_B2.htk",
+    "simple_call_seq/audio/parts_pl30.0ms_s5.0ms_cl80%/sr500000_xpps4000_h512_wHam/hog/C_TO_Jt2_16_06_25_016_029575_B2.htk",
+    "simple_call_seq/audio/parts_pl30.0ms_s5.0ms_cl80%/sr500000_xpps4000_h512_wHam/hog/C_TO_Jt2_16_06_26_010_148715_B2.htk",
+    "simple_call_seq/audio/parts_pl30.0ms_s5.0ms_cl80%/sr500000_xpps4000_h512_wHam/hog/B4_C_TR_Jt2_16_06_02_044_000645_B4.htk",
+    "simple_call_seq/audio/parts_pl30.0ms_s5.0ms_cl80%/sr500000_xpps4000_h512_wHam/hog/C_TO_Jt2_16_06_25_016_015015_B4.htk",
+    "simple_call_seq/audio/parts_pl30.0ms_s5.0ms_cl80%/sr500000_xpps4000_h512_wHam/hog/C_TO_Jt3_16_06_20_017_007135_B4.htk",
+    "simple_call_seq/audio/parts_pl30.0ms_s5.0ms_cl80%/sr500000_xpps4000_h512_wHam/hog/C_TO_Jt3_16_06_20_017_008030_B4.htk",
+    "simple_call_seq/audio/parts_pl30.0ms_s5.0ms_cl80%/sr500000_xpps4000_h512_wHam/hog/C_TO_Jt3_16_07_06_006_089680_B4.htk",
+    "simple_call_seq/audio/parts_pl30.0ms_s5.0ms_cl80%/sr500000_xpps4000_h512_wHam/hog/C_TO_Jt3_16_07_11_009_267970_B4.htk",
+    "simple_call_seq/audio/parts_pl30.0ms_s5.0ms_cl80%/sr500000_xpps4000_h512_wHam/hog/C_TR_Jt1_16_06_02_109_004555_B4.htk",
+    "simple_call_seq/audio/parts_pl30.0ms_s5.0ms_cl80%/sr500000_xpps4000_h512_wHam/hog/C_TR_Jt1_16_06_02_109_004740_B4.htk",
+    "simple_call_seq/audio/parts_pl30.0ms_s5.0ms_cl80%/sr500000_xpps4000_h512_wHam/hog/C_TR_Jt1_16_06_02_109_032265_B4.htk",
+    "simple_call_seq/audio/parts_pl30.0ms_s5.0ms_cl80%/sr500000_xpps4000_h512_wHam/hog/C_TR_Jt6_16_07_12_017_175635_B4.htk",
+    "simple_call_seq/audio/parts_pl30.0ms_s5.0ms_cl80%/sr500000_xpps4000_h512_wHam/hog/C_TR_Jt7_16_06_17_023_009080_B4.htk",
+    "simple_call_seq/audio/parts_pl30.0ms_s5.0ms_cl80%/sr500000_xpps4000_h512_wHam/hog/C_TR_Jt7_16_07_10_009_003880_B4.htk",
+    "simple_call_seq/audio/parts_pl30.0ms_s5.0ms_cl80%/sr500000_xpps4000_h512_wHam/hog/C_TR_Jt7_16_07_10_009_014790_B4.htk",
+    "simple_call_seq/audio/parts_pl30.0ms_s5.0ms_cl80%/sr500000_xpps4000_h512_wHam/hog/C_TR_Jt8_16_07_07_020_007700_B4.htk",
+    "simple_call_seq/audio/parts_pl30.0ms_s5.0ms_cl80%/sr500000_xpps4000_h512_wHam/hog/C_TR_Jt8_16_07_07_020_066640_B4.htk",
+    "simple_call_seq/audio/parts_pl30.0ms_s5.0ms_cl80%/sr500000_xpps4000_h512_wHam/hog/C_TO_Jt2_16_06_26_010_081465_B3.htk",
+    "simple_call_seq/audio/parts_pl30.0ms_s5.0ms_cl80%/sr500000_xpps4000_h512_wHam/hog/C_TO_Jt2_16_06_26_010_301735_B3.htk",
+    "simple_call_seq/audio/parts_pl30.0ms_s5.0ms_cl80%/sr500000_xpps4000_h512_wHam/hog/C_TO_Jt2_16_07_04_023_114660_B3.htk",
+    "simple_call_seq/audio/parts_pl30.0ms_s5.0ms_cl80%/sr500000_xpps4000_h512_wHam/hog/C_TO_Jt2_16_07_04_023_114775_B3.htk",
+    "simple_call_seq/audio/parts_pl30.0ms_s5.0ms_cl80%/sr500000_xpps4000_h512_wHam/hog/C_TO_Jt3_16_06_18_006_076095_B3.htk",
+    "simple_call_seq/audio/parts_pl30.0ms_s5.0ms_cl80%/sr500000_xpps4000_h512_wHam/hog/C_TO_Jt3_16_06_18_007_001980_B3.htk",
+    "simple_call_seq/audio/parts_pl30.0ms_s5.0ms_cl80%/sr500000_xpps4000_h512_wHam/hog/C_TO_Jt3_16_06_20_017_010835_B3.htk",
+    "simple_call_seq/audio/parts_pl30.0ms_s5.0ms_cl80%/sr500000_xpps4000_h512_wHam/hog/C_TO_Jt3_16_06_20_017_010875_B3.htk",
+    "simple_call_seq/audio/parts_pl30.0ms_s5.0ms_cl80%/sr500000_xpps4000_h512_wHam/hog/C_TO_Jt3_16_06_20_017_012170_B3.htk",
+    "simple_call_seq/audio/parts_pl30.0ms_s5.0ms_cl80%/sr500000_xpps4000_h512_wHam/hog/C_TO_Jt3_16_06_24_017_066410_B3.htk",
+    "simple_call_seq/audio/parts_pl30.0ms_s5.0ms_cl80%/sr500000_xpps4000_h512_wHam/hog/C_TO_Jt3_16_07_06_006_225095_B3.htk",
+    "simple_call_seq/audio/parts_pl30.0ms_s5.0ms_cl80%/sr500000_xpps4000_h512_wHam/hog/C_TO_Jt3_16_07_09_018_013930_B3.htk",
+    "simple_call_seq/audio/parts_pl30.0ms_s5.0ms_cl80%/sr500000_xpps4000_h512_wHam/hog/C_TO_Jt3_16_07_09_018_013970_B3.htk",
+    "simple_call_seq/audio/parts_pl30.0ms_s5.0ms_cl80%/sr500000_xpps4000_h512_wHam/hog/C_TO_Jt3_16_07_11_009_297900_B3.htk",
+    "simple_call_seq/audio/parts_pl30.0ms_s5.0ms_cl80%/sr500000_xpps4000_h512_wHam/hog/C_TO_Jt3_16_07_11_009_297940_B3.htk",
+    "simple_call_seq/audio/parts_pl30.0ms_s5.0ms_cl80%/sr500000_xpps4000_h512_wHam/hog/C_TO_Jt3_16_07_11_009_298665_B3.htk",
+    "simple_call_seq/audio/parts_pl30.0ms_s5.0ms_cl80%/sr500000_xpps4000_h512_wHam/hog/C_TO_Jt3_16_07_11_009_298705_B3.htk",
+    "simple_call_seq/audio/parts_pl30.0ms_s5.0ms_cl80%/sr500000_xpps4000_h512_wHam/hog/C_TO_Jt3_16_07_11_009_303960_B3.htk",
+    "simple_call_seq/audio/parts_pl30.0ms_s5.0ms_cl80%/sr500000_xpps4000_h512_wHam/hog/C_TR_Jt1_16_06_07_058_000820_B3.htk",
+    "simple_call_seq/audio/parts_pl30.0ms_s5.0ms_cl80%/sr500000_xpps4000_h512_wHam/hog/C_TR_Jt4_16_06_11_013_096225_B3.htk",
+    "simple_call_seq/audio/parts_pl30.0ms_s5.0ms_cl80%/sr500000_xpps4000_h512_wHam/hog/C_TR_Jt4_16_06_19_013_026300_B3.htk",
+    "simple_call_seq/audio/parts_pl30.0ms_s5.0ms_cl80%/sr500000_xpps4000_h512_wHam/hog/C_TR_Jt4_16_06_25_005_052265_B3.htk",
+    "simple_call_seq/audio/parts_pl30.0ms_s5.0ms_cl80%/sr500000_xpps4000_h512_wHam/hog/C_TR_Jt4_16_06_25_005_061665_B3.htk",
+    "simple_call_seq/audio/parts_pl30.0ms_s5.0ms_cl80%/sr500000_xpps4000_h512_wHam/hog/C_TR_Jt5_16_06_17_024_053425_B3.htk",
+    "simple_call_seq/audio/parts_pl30.0ms_s5.0ms_cl80%/sr500000_xpps4000_h512_wHam/hog/C_TR_Jt5_16_06_19_071_116230_B3.htk",
+    "simple_call_seq/audio/parts_pl30.0ms_s5.0ms_cl80%/sr500000_xpps4000_h512_wHam/hog/C_TR_Jt5_16_06_19_071_116405_B3.htk",
+    "simple_call_seq/audio/parts_pl30.0ms_s5.0ms_cl80%/sr500000_xpps4000_h512_wHam/hog/VSV_C_TO_Jt2_16_06_12_018_min165_000165_VSV.htk",
+    "simple_call_seq/audio/parts_pl30.0ms_s5.0ms_cl80%/sr500000_xpps4000_h512_wHam/hog/VSV_C_TO_Jt2_16_06_26_009_000520_VSV.htk",
+    "simple_call_seq/audio/parts_pl30.0ms_s5.0ms_cl80%/sr500000_xpps4000_h512_wHam/hog/VSV_C_TR_Jt5_16_06_15_047_min42_000045_VSV.htk",
+    "simple_call_seq/audio/parts_pl30.0ms_s5.0ms_cl80%/sr500000_xpps4000_h512_wHam/hog/VSV_C_TR_Jt6_16_06_15_016_min75_000015_VSV.htk",
+    "simple_call_seq/audio/parts_pl30.0ms_s5.0ms_cl80%/sr500000_xpps4000_h512_wHam/hog/VSV_C_TR_Jt6_16_06_15_082_min153_000015_VSV.htk",
+    "simple_call_seq/audio/parts_pl30.0ms_s5.0ms_cl80%/sr500000_xpps4000_h512_wHam/hog/VSV_C_TR_Jt6_16_06_15_082_min65_000100_VSV.htk",
+    "simple_call_seq/audio/parts_pl30.0ms_s5.0ms_cl80%/sr500000_xpps4000_h512_wHam/hog/VSV_C_TR_Jt6_16_06_23_078_min157_000015_VSV.htk",
+    "simple_call_seq/audio/parts_pl30.0ms_s5.0ms_cl80%/sr500000_xpps4000_h512_wHam/hog/VSV_C_TR_Jt7_16_07_20_030_min65_000010_VSV.htk",
+    "simple_call_seq/audio/parts_pl30.0ms_s5.0ms_cl80%/sr500000_xpps4000_h512_wHam/hog/VS_C_TO_Jt2_16_07_06_015_min152_000285_VS.htk",
+    "simple_call_seq/audio/parts_pl30.0ms_s5.0ms_cl80%/sr500000_xpps4000_h512_wHam/hog/VS_C_TO_Jt3_16_07_11_009_min16_000010_VS.htk",
+    "simple_call_seq/audio/parts_pl30.0ms_s5.0ms_cl80%/sr500000_xpps4000_h512_wHam/hog/VS_C_TR_Jt5_16_07_12_021_2_min98_000015_VS.htk",
+    "simple_call_seq/audio/parts_pl30.0ms_s5.0ms_cl80%/sr500000_xpps4000_h512_wHam/hog/T_BCI_E1_Jt1_15_06_24_50_000060_UPS.htk"
+  ],
+  "env": {
+    "os": "Linux",
+    "platform": "Linux-3.10.0-1127.19.1.el7.x86_64-x86_64-with-glibc2.10",
+    "sox": "14.4.2",
+    "java": [
+      "openjdk version \"1.8.0_262\"",
+      "OpenJDK Runtime Environment (build 1.8.0_262-b10)",
+      "OpenJDK 64-Bit Server VM (build 25.262-b10, mixed mode)"
+    ],
+    "keras": "2.4.0",
+    "tf": "2.3.1",
+    "gpu": "device: 0, name: Tesla P100-PCIE-12GB, pci bus id: 0000:84:00.0, compute capability: 6.0, device: 1, name: Tesla P100-PCIE-12GB, pci bus id: 0000:87:00.0, compute capability: 6.0"
+  },
+  "pipeline": [
+    {
+      "task": "AudioLoadTask",
+      "props": {
+        "mdb": "simple_call_seq/metadata.json",
+        "dataset_name": "simple_call_seq",
+        "source": "simple_call_seq/audio"
+      }
+    },
+    {
+      "task": "SplitIntoPartsTask",
+      "props": {
+        "part_length": 0.03,
+        "strides": 0.005,
+        "label_min_cover_length": 0.8
+      }
+    },
+    {
+      "task": "CreateSpectrogramTask",
+      "props": {
+        "sampling_rate": 500000,
+        "x_pixels_per_sec": 4000,
+        "height": 512,
+        "window": "Ham"
+      }
+    },
+    {
+      "task": "ExtractHOGHWRecogTask",
+      "props": {}
+    },
+    {
+      "task": "KFoldSeparationTask",
+      "props": {
+        "k": 8,
+        "val_bins": 1,
+        "test_bins": 2,
+        "n": 2
+      }
+    },
+    {
+      "task": "CreateNNModelTask",
+      "props": {
+        "name": "cnn_2d_scs_r3_p30s5l80%_hog_100_3d",
+        "model": {
+          "name": "sequential",
+          "layers": [
+            {
+              "class_name": "InputLayer",
+              "config": {
+                "batch_input_shape": [
+                  null,
+                  53,
+                  24,
+                  12
+                ],
+                "dtype": "float32",
+                "sparse": false,
+                "ragged": false,
+                "name": "conv2d_input"
+              }
+            },
+            {
+              "class_name": "Conv2D",
+              "config": {
+                "name": "conv2d",
+                "trainable": true,
+                "batch_input_shape": [
+                  null,
+                  53,
+                  24,
+                  12
+                ],
+                "dtype": "float32",
+                "filters": 32,
+                "kernel_size": [
+                  3,
+                  3
+                ],
+                "strides": [
+                  1,
+                  1
+                ],
+                "padding": "valid",
+                "data_format": "channels_last",
+                "dilation_rate": [
+                  1,
+                  1
+                ],
+                "groups": 1,
+                "activation": "relu",
+                "use_bias": true,
+                "kernel_initializer": {
+                  "class_name": "GlorotUniform",
+                  "config": {
+                    "seed": null
+                  }
+                },
+                "bias_initializer": {
+                  "class_name": "Zeros",
+                  "config": {}
+                },
+                "kernel_regularizer": null,
+                "bias_regularizer": null,
+                "activity_regularizer": null,
+                "kernel_constraint": null,
+                "bias_constraint": null
+              }
+            },
+            {
+              "class_name": "MaxPooling2D",
+              "config": {
+                "name": "max_pooling2d",
+                "trainable": true,
+                "dtype": "float32",
+                "pool_size": [
+                  2,
+                  2
+                ],
+                "padding": "valid",
+                "strides": [
+                  2,
+                  2
+                ],
+                "data_format": "channels_last"
+              }
+            },
+            {
+              "class_name": "Conv2D",
+              "config": {
+                "name": "conv2d_1",
+                "trainable": true,
+                "dtype": "float32",
+                "filters": 64,
+                "kernel_size": [
+                  3,
+                  3
+                ],
+                "strides": [
+                  1,
+                  1
+                ],
+                "padding": "valid",
+                "data_format": "channels_last",
+                "dilation_rate": [
+                  1,
+                  1
+                ],
+                "groups": 1,
+                "activation": "relu",
+                "use_bias": true,
+                "kernel_initializer": {
+                  "class_name": "GlorotUniform",
+                  "config": {
+                    "seed": null
+                  }
+                },
+                "bias_initializer": {
+                  "class_name": "Zeros",
+                  "config": {}
+                },
+                "kernel_regularizer": null,
+                "bias_regularizer": null,
+                "activity_regularizer": null,
+                "kernel_constraint": null,
+                "bias_constraint": null
+              }
+            },
+            {
+              "class_name": "MaxPooling2D",
+              "config": {
+                "name": "max_pooling2d_1",
+                "trainable": true,
+                "dtype": "float32",
+                "pool_size": [
+                  2,
+                  2
+                ],
+                "padding": "valid",
+                "strides": [
+                  2,
+                  2
+                ],
+                "data_format": "channels_last"
+              }
+            },
+            {
+              "class_name": "Flatten",
+              "config": {
+                "name": "flatten",
+                "trainable": true,
+                "dtype": "float32",
+                "data_format": "channels_last"
+              }
+            },
+            {
+              "class_name": "Dense",
+              "config": {
+                "name": "dense",
+                "trainable": true,
+                "dtype": "float32",
+                "units": 1024,
+                "activation": "relu",
+                "use_bias": true,
+                "kernel_initializer": {
+                  "class_name": "GlorotUniform",
+                  "config": {
+                    "seed": null
+                  }
+                },
+                "bias_initializer": {
+                  "class_name": "Zeros",
+                  "config": {}
+                },
+                "kernel_regularizer": null,
+                "bias_regularizer": null,
+                "activity_regularizer": null,
+                "kernel_constraint": null,
+                "bias_constraint": null
+              }
+            },
+            {
+              "class_name": "Dropout",
+              "config": {
+                "name": "dropout",
+                "trainable": true,
+                "dtype": "float32",
+                "rate": 0.5,
+                "noise_shape": null,
+                "seed": null
+              }
+            },
+            {
+              "class_name": "Dense",
+              "config": {
+                "name": "dense_1",
+                "trainable": true,
+                "dtype": "float32",
+                "units": 7,
+                "activation": "softmax",
+                "use_bias": true,
+                "kernel_initializer": {
+                  "class_name": "GlorotUniform",
+                  "config": {
+                    "seed": null
+                  }
+                },
+                "bias_initializer": {
+                  "class_name": "Zeros",
+                  "config": {}
+                },
+                "kernel_regularizer": null,
+                "bias_regularizer": null,
+                "activity_regularizer": null,
+                "kernel_constraint": null,
+                "bias_constraint": null
+              }
+            }
+          ]
+        },
+        "prepare_args": {
+          "new_dim_size": 12
+        },
+        "fit_args": null
+      }
+    },
+    {
+      "task": "TrainNNModelTask",
+      "props": {
+        "epochs": 100,
+        "save_every": 100
+      }
+    },
+    {
+      "task": "RecognizeNNTask",
+      "props": {
+        "validate": [
+          {
+            "task": "AudioLoadTask",
+            "props": {
+              "mdb": "simple_call_seq/metadata.json",
+              "dataset_name": "simple_call_seq",
+              "source": "simple_call_seq/audio"
+            }
+          },
+          {
+            "task": "SplitIntoPartsTask",
+            "props": {
+              "part_length": 0.03,
+              "strides": 0.005,
+              "label_min_cover_length": 0.8
+            }
+          },
+          {
+            "task": "CreateSpectrogramTask",
+            "props": {
+              "sampling_rate": 500000,
+              "x_pixels_per_sec": 4000,
+              "height": 512,
+              "window": "Ham"
+            }
+          },
+          {
+            "task": "ExtractHOGHWRecogTask",
+            "props": {}
+          },
+          {
+            "task": "KFoldSeparationTask",
+            "props": {
+              "k": 8,
+              "val_bins": 1,
+              "test_bins": 2,
+              "n": 2
+            }
+          }
+        ],
+        "model_path": "simple_call_seq/models/nn_cnn_2d_scs_r3_p30s5l80%_hog_100_3d/6603927fb9aa8ee84994dada5d22c0555ea5e0e5/best_val_acc_e012_v0.802.h5"
+      }
+    },
+    {
+      "task": "ExtractionJSONTask",
+      "props": {
+        "report_name": []
+      }
+    }
+  ]
+}

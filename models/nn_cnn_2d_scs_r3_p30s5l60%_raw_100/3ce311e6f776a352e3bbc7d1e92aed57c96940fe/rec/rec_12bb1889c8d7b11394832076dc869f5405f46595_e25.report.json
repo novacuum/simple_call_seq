@@ -1,0 +1,689 @@
+{
+  "id": "nn_cnn_2d_scs_r3_p30s5l60%_raw_100/3ce311e6f776a352e3bbc7d1e92aed57c96940fe/rec/rec_12bb1889c8d7b11394832076dc869f5405f46595_e25.report",
+  "timestamp": "2020-11-12T10:06:26Z",
+  "accuracy": 0.8597883597883598,
+  "loss": 0.5995937097317442,
+  "correct": 975,
+  "incorrect": 159,
+  "total": 1134,
+  "confusion": {
+    "B2": {
+      "B2": 145,
+      "B3": 6,
+      "B4": 6,
+      "UPS": 0,
+      "VS": 0,
+      "VSV": 0,
+      "none": 5
+    },
+    "B3": {
+      "B3": 123,
+      "B2": 18,
+      "B4": 2,
+      "UPS": 4,
+      "VS": 0,
+      "VSV": 0,
+      "none": 15
+    },
+    "B4": {
+      "B4": 117,
+      "B2": 27,
+      "B3": 6,
+      "UPS": 2,
+      "VS": 1,
+      "VSV": 0,
+      "none": 9
+    },
+    "UPS": {
+      "UPS": 158,
+      "B2": 0,
+      "B3": 0,
+      "B4": 0,
+      "VS": 0,
+      "VSV": 0,
+      "none": 4
+    },
+    "VS": {
+      "VS": 138,
+      "B2": 0,
+      "B3": 0,
+      "B4": 0,
+      "UPS": 0,
+      "VSV": 9,
+      "none": 15
+    },
+    "VSV": {
+      "VSV": 141,
+      "B2": 0,
+      "B3": 0,
+      "B4": 0,
+      "UPS": 2,
+      "VS": 17,
+      "none": 2
+    },
+    "none": {
+      "none": 153,
+      "B2": 6,
+      "B3": 0,
+      "B4": 2,
+      "UPS": 0,
+      "VS": 1,
+      "VSV": 0
+    }
+  },
+  "failed": [
+    "simple_call_seq/audio/parts_pl30.0ms_s5.0ms_cl60%/sr500000_xpps4000_h512_wHam/img/B4_C_TR_Jt2_16_06_02_044_000280_none.htk",
+    "simple_call_seq/audio/parts_pl30.0ms_s5.0ms_cl60%/sr500000_xpps4000_h512_wHam/img/C_TO_Jt1_16_06_20_015_045945_none.htk",
+    "simple_call_seq/audio/parts_pl30.0ms_s5.0ms_cl60%/sr500000_xpps4000_h512_wHam/img/C_TO_Jt1_16_06_20_029_475715_none.htk",
+    "simple_call_seq/audio/parts_pl30.0ms_s5.0ms_cl60%/sr500000_xpps4000_h512_wHam/img/C_TO_Jt2_16_06_12_018_017805_none.htk",
+    "simple_call_seq/audio/parts_pl30.0ms_s5.0ms_cl60%/sr500000_xpps4000_h512_wHam/img/B2_C_TR_Jt5_16_07_10_034_000435_B2.htk",
+    "simple_call_seq/audio/parts_pl30.0ms_s5.0ms_cl60%/sr500000_xpps4000_h512_wHam/img/B2_C_TR_Jt5_16_07_10_034_001060_B2.htk",
+    "simple_call_seq/audio/parts_pl30.0ms_s5.0ms_cl60%/sr500000_xpps4000_h512_wHam/img/B2_C_TR_Jt5_16_07_10_034_001495_B2.htk",
+    "simple_call_seq/audio/parts_pl30.0ms_s5.0ms_cl60%/sr500000_xpps4000_h512_wHam/img/C_TO_Jt1_16_06_20_029_360640_B2.htk",
+    "simple_call_seq/audio/parts_pl30.0ms_s5.0ms_cl60%/sr500000_xpps4000_h512_wHam/img/C_TO_Jt2_16_06_18_005_026900_B2.htk",
+    "simple_call_seq/audio/parts_pl30.0ms_s5.0ms_cl60%/sr500000_xpps4000_h512_wHam/img/C_TO_Jt2_16_06_20_018_047200_B2.htk",
+    "simple_call_seq/audio/parts_pl30.0ms_s5.0ms_cl60%/sr500000_xpps4000_h512_wHam/img/C_TO_Jt2_16_06_20_018_051205_B2.htk",
+    "simple_call_seq/audio/parts_pl30.0ms_s5.0ms_cl60%/sr500000_xpps4000_h512_wHam/img/C_TO_Jt2_16_06_26_010_148915_B2.htk",
+    "simple_call_seq/audio/parts_pl30.0ms_s5.0ms_cl60%/sr500000_xpps4000_h512_wHam/img/C_TO_Jt2_16_06_26_010_194760_B2.htk",
+    "simple_call_seq/audio/parts_pl30.0ms_s5.0ms_cl60%/sr500000_xpps4000_h512_wHam/img/C_TO_Jt2_16_06_20_018_047295_B4.htk",
+    "simple_call_seq/audio/parts_pl30.0ms_s5.0ms_cl60%/sr500000_xpps4000_h512_wHam/img/C_TO_Jt3_16_06_18_006_029130_B4.htk",
+    "simple_call_seq/audio/parts_pl30.0ms_s5.0ms_cl60%/sr500000_xpps4000_h512_wHam/img/C_TO_Jt3_16_06_20_017_007125_B4.htk",
+    "simple_call_seq/audio/parts_pl30.0ms_s5.0ms_cl60%/sr500000_xpps4000_h512_wHam/img/C_TO_Jt3_16_06_20_017_007165_B4.htk",
+    "simple_call_seq/audio/parts_pl30.0ms_s5.0ms_cl60%/sr500000_xpps4000_h512_wHam/img/C_TO_Jt3_16_06_20_017_008045_B4.htk",
+    "simple_call_seq/audio/parts_pl30.0ms_s5.0ms_cl60%/sr500000_xpps4000_h512_wHam/img/C_TO_Jt3_16_07_06_006_089685_B4.htk",
+    "simple_call_seq/audio/parts_pl30.0ms_s5.0ms_cl60%/sr500000_xpps4000_h512_wHam/img/C_TO_Jt3_16_07_09_018_037985_B4.htk",
+    "simple_call_seq/audio/parts_pl30.0ms_s5.0ms_cl60%/sr500000_xpps4000_h512_wHam/img/C_TO_Jt3_16_07_11_009_267725_B4.htk",
+    "simple_call_seq/audio/parts_pl30.0ms_s5.0ms_cl60%/sr500000_xpps4000_h512_wHam/img/C_TR_Jt1_16_06_02_109_004570_B4.htk",
+    "simple_call_seq/audio/parts_pl30.0ms_s5.0ms_cl60%/sr500000_xpps4000_h512_wHam/img/C_TR_Jt1_16_06_02_109_018975_B4.htk",
+    "simple_call_seq/audio/parts_pl30.0ms_s5.0ms_cl60%/sr500000_xpps4000_h512_wHam/img/C_TR_Jt1_16_06_02_109_019225_B4.htk",
+    "simple_call_seq/audio/parts_pl30.0ms_s5.0ms_cl60%/sr500000_xpps4000_h512_wHam/img/C_TR_Jt4_16_06_11_013_161905_B4.htk",
+    "simple_call_seq/audio/parts_pl30.0ms_s5.0ms_cl60%/sr500000_xpps4000_h512_wHam/img/C_TR_Jt5_16_06_15_047_012570_B4.htk",
+    "simple_call_seq/audio/parts_pl30.0ms_s5.0ms_cl60%/sr500000_xpps4000_h512_wHam/img/C_TR_Jt6_16_06_19_077_037845_B4.htk",
+    "simple_call_seq/audio/parts_pl30.0ms_s5.0ms_cl60%/sr500000_xpps4000_h512_wHam/img/C_TR_Jt6_16_06_19_077_038310_B4.htk",
+    "simple_call_seq/audio/parts_pl30.0ms_s5.0ms_cl60%/sr500000_xpps4000_h512_wHam/img/C_TR_Jt6_16_06_23_080_103285_B4.htk",
+    "simple_call_seq/audio/parts_pl30.0ms_s5.0ms_cl60%/sr500000_xpps4000_h512_wHam/img/C_TR_Jt6_16_07_12_017_175620_B4.htk",
+    "simple_call_seq/audio/parts_pl30.0ms_s5.0ms_cl60%/sr500000_xpps4000_h512_wHam/img/C_TR_Jt6_16_07_12_017_175835_B4.htk",
+    "simple_call_seq/audio/parts_pl30.0ms_s5.0ms_cl60%/sr500000_xpps4000_h512_wHam/img/C_TR_Jt7_16_07_07_017_074970_B4.htk",
+    "simple_call_seq/audio/parts_pl30.0ms_s5.0ms_cl60%/sr500000_xpps4000_h512_wHam/img/C_TR_Jt7_16_07_07_017_102195_B4.htk",
+    "simple_call_seq/audio/parts_pl30.0ms_s5.0ms_cl60%/sr500000_xpps4000_h512_wHam/img/C_TR_Jt8_16_06_17_019_007260_B4.htk",
+    "simple_call_seq/audio/parts_pl30.0ms_s5.0ms_cl60%/sr500000_xpps4000_h512_wHam/img/C_TR_Jt8_16_07_07_020_007695_B4.htk",
+    "simple_call_seq/audio/parts_pl30.0ms_s5.0ms_cl60%/sr500000_xpps4000_h512_wHam/img/C_TR_Jt8_16_07_07_020_066105_B4.htk",
+    "simple_call_seq/audio/parts_pl30.0ms_s5.0ms_cl60%/sr500000_xpps4000_h512_wHam/img/C_TR_Jt8_16_07_07_020_066610_B4.htk",
+    "simple_call_seq/audio/parts_pl30.0ms_s5.0ms_cl60%/sr500000_xpps4000_h512_wHam/img/C_TR_Jt8_16_07_12_063_076740_B4.htk",
+    "simple_call_seq/audio/parts_pl30.0ms_s5.0ms_cl60%/sr500000_xpps4000_h512_wHam/img/C_TR_Jt8_16_07_12_063_084475_B4.htk",
+    "simple_call_seq/audio/parts_pl30.0ms_s5.0ms_cl60%/sr500000_xpps4000_h512_wHam/img/C_TO_Jt2_16_07_04_023_114785_B3.htk",
+    "simple_call_seq/audio/parts_pl30.0ms_s5.0ms_cl60%/sr500000_xpps4000_h512_wHam/img/C_TO_Jt2_16_07_06_015_122220_B3.htk",
+    "simple_call_seq/audio/parts_pl30.0ms_s5.0ms_cl60%/sr500000_xpps4000_h512_wHam/img/C_TO_Jt3_16_06_18_006_076225_B3.htk",
+    "simple_call_seq/audio/parts_pl30.0ms_s5.0ms_cl60%/sr500000_xpps4000_h512_wHam/img/C_TO_Jt3_16_06_20_017_012180_B3.htk",
+    "simple_call_seq/audio/parts_pl30.0ms_s5.0ms_cl60%/sr500000_xpps4000_h512_wHam/img/C_TO_Jt3_16_07_11_009_297885_B3.htk",
+    "simple_call_seq/audio/parts_pl30.0ms_s5.0ms_cl60%/sr500000_xpps4000_h512_wHam/img/C_TO_Jt3_16_07_11_009_297965_B3.htk",
+    "simple_call_seq/audio/parts_pl30.0ms_s5.0ms_cl60%/sr500000_xpps4000_h512_wHam/img/C_TO_Jt3_16_07_11_009_298720_B3.htk",
+    "simple_call_seq/audio/parts_pl30.0ms_s5.0ms_cl60%/sr500000_xpps4000_h512_wHam/img/C_TO_Jt3_16_07_11_009_303960_B3.htk",
+    "simple_call_seq/audio/parts_pl30.0ms_s5.0ms_cl60%/sr500000_xpps4000_h512_wHam/img/C_TR_Jt1_16_06_07_058_000805_B3.htk",
+    "simple_call_seq/audio/parts_pl30.0ms_s5.0ms_cl60%/sr500000_xpps4000_h512_wHam/img/C_TR_Jt1_16_06_07_058_000900_B3.htk",
+    "simple_call_seq/audio/parts_pl30.0ms_s5.0ms_cl60%/sr500000_xpps4000_h512_wHam/img/C_TR_Jt1_16_06_07_058_000940_B3.htk",
+    "simple_call_seq/audio/parts_pl30.0ms_s5.0ms_cl60%/sr500000_xpps4000_h512_wHam/img/C_TR_Jt1_16_06_07_058_086465_B3.htk",
+    "simple_call_seq/audio/parts_pl30.0ms_s5.0ms_cl60%/sr500000_xpps4000_h512_wHam/img/C_TR_Jt4_16_06_11_013_096060_B3.htk",
+    "simple_call_seq/audio/parts_pl30.0ms_s5.0ms_cl60%/sr500000_xpps4000_h512_wHam/img/C_TR_Jt4_16_06_11_013_096215_B3.htk",
+    "simple_call_seq/audio/parts_pl30.0ms_s5.0ms_cl60%/sr500000_xpps4000_h512_wHam/img/C_TR_Jt4_16_06_23_057_154875_B3.htk",
+    "simple_call_seq/audio/parts_pl30.0ms_s5.0ms_cl60%/sr500000_xpps4000_h512_wHam/img/C_TR_Jt4_16_06_25_005_061675_B3.htk",
+    "simple_call_seq/audio/parts_pl30.0ms_s5.0ms_cl60%/sr500000_xpps4000_h512_wHam/img/C_TR_Jt5_16_06_17_024_053850_B3.htk",
+    "simple_call_seq/audio/parts_pl30.0ms_s5.0ms_cl60%/sr500000_xpps4000_h512_wHam/img/C_TR_Jt5_16_06_19_071_156085_B3.htk",
+    "simple_call_seq/audio/parts_pl30.0ms_s5.0ms_cl60%/sr500000_xpps4000_h512_wHam/img/C_TR_Jt5_16_06_19_071_156230_B3.htk",
+    "simple_call_seq/audio/parts_pl30.0ms_s5.0ms_cl60%/sr500000_xpps4000_h512_wHam/img/C_TR_Jt5_16_06_21_008_068990_B3.htk",
+    "simple_call_seq/audio/parts_pl30.0ms_s5.0ms_cl60%/sr500000_xpps4000_h512_wHam/img/VSV_C_TO_JT3_16_07_06_003_min37_000015_VSV.htk",
+    "simple_call_seq/audio/parts_pl30.0ms_s5.0ms_cl60%/sr500000_xpps4000_h512_wHam/img/VSV_C_TO_Jt2_16_06_20_018_min62_000110_VSV.htk",
+    "simple_call_seq/audio/parts_pl30.0ms_s5.0ms_cl60%/sr500000_xpps4000_h512_wHam/img/VSV_C_TO_Jt2_16_06_26_009_000610_VSV.htk",
+    "simple_call_seq/audio/parts_pl30.0ms_s5.0ms_cl60%/sr500000_xpps4000_h512_wHam/img/VSV_C_TO_Jt2_16_06_26_010_min289_000075_VSV.htk",
+    "simple_call_seq/audio/parts_pl30.0ms_s5.0ms_cl60%/sr500000_xpps4000_h512_wHam/img/VSV_C_TO_Jt3_16_07_04_021_min83_000025_VSV.htk",
+    "simple_call_seq/audio/parts_pl30.0ms_s5.0ms_cl60%/sr500000_xpps4000_h512_wHam/img/VSV_C_TR_Jt4_16_06_15_043_min30_000035_VSV.htk",
+    "simple_call_seq/audio/parts_pl30.0ms_s5.0ms_cl60%/sr500000_xpps4000_h512_wHam/img/VSV_C_TR_Jt5_16_06_15_047_min42_000045_VSV.htk",
+    "simple_call_seq/audio/parts_pl30.0ms_s5.0ms_cl60%/sr500000_xpps4000_h512_wHam/img/VSV_C_TR_Jt5_16_06_23_025_min110_000065_VSV.htk",
+    "simple_call_seq/audio/parts_pl30.0ms_s5.0ms_cl60%/sr500000_xpps4000_h512_wHam/img/VSV_C_TR_Jt6_16_06_15_016_min75_000120_VSV.htk",
+    "simple_call_seq/audio/parts_pl30.0ms_s5.0ms_cl60%/sr500000_xpps4000_h512_wHam/img/VSV_C_TR_Jt7_16_07_07_037_min137_000005_VSV.htk",
+    "simple_call_seq/audio/parts_pl30.0ms_s5.0ms_cl60%/sr500000_xpps4000_h512_wHam/img/VS_C_TO_Jt2_16_06_12_018_min15_000175_VS.htk",
+    "simple_call_seq/audio/parts_pl30.0ms_s5.0ms_cl60%/sr500000_xpps4000_h512_wHam/img/VS_C_TO_Jt2_16_06_26_010_min297_000005_VS.htk",
+    "simple_call_seq/audio/parts_pl30.0ms_s5.0ms_cl60%/sr500000_xpps4000_h512_wHam/img/VS_C_TO_Jt2_16_06_26_010_min92_000525_VS.htk",
+    "simple_call_seq/audio/parts_pl30.0ms_s5.0ms_cl60%/sr500000_xpps4000_h512_wHam/img/VS_C_TO_Jt2_16_07_04_023_min166_000025_VS.htk",
+    "simple_call_seq/audio/parts_pl30.0ms_s5.0ms_cl60%/sr500000_xpps4000_h512_wHam/img/VS_C_TR_Jt1_16_06_02_109_min3_000015_VS.htk",
+    "simple_call_seq/audio/parts_pl30.0ms_s5.0ms_cl60%/sr500000_xpps4000_h512_wHam/img/VS_C_TR_Jt4_16_06_15_043_min23_000045_VS.htk",
+    "simple_call_seq/audio/parts_pl30.0ms_s5.0ms_cl60%/sr500000_xpps4000_h512_wHam/img/VS_C_TR_Jt4_16_06_15_047_min42_000090_VS.htk",
+    "simple_call_seq/audio/parts_pl30.0ms_s5.0ms_cl60%/sr500000_xpps4000_h512_wHam/img/VS_C_TR_Jt5_16_06_19_071_min62_000170_VS.htk",
+    "simple_call_seq/audio/parts_pl30.0ms_s5.0ms_cl60%/sr500000_xpps4000_h512_wHam/img/VS_C_TR_Jt5_16_07_12_021_2_min23_000220_VS.htk",
+    "simple_call_seq/audio/parts_pl30.0ms_s5.0ms_cl60%/sr500000_xpps4000_h512_wHam/img/VS_C_TR_Jt5_16_07_20_033_min75_000110_VS.htk",
+    "simple_call_seq/audio/parts_pl30.0ms_s5.0ms_cl60%/sr500000_xpps4000_h512_wHam/img/VS_C_TR_Jt6_16_06_15_082_min159_000100_VS.htk",
+    "simple_call_seq/audio/parts_pl30.0ms_s5.0ms_cl60%/sr500000_xpps4000_h512_wHam/img/VS_C_TR_Jt7_16_07_07_037_min95_000025_VS.htk",
+    "simple_call_seq/audio/parts_pl30.0ms_s5.0ms_cl60%/sr500000_xpps4000_h512_wHam/img/VS_C_TR_Jt8_16_06_11_021_min12_000090_VS.htk",
+    "simple_call_seq/audio/parts_pl30.0ms_s5.0ms_cl60%/sr500000_xpps4000_h512_wHam/img/VS_Curu_B_Jt1_16_06_10_047_000045_VS.htk",
+    "simple_call_seq/audio/parts_pl30.0ms_s5.0ms_cl60%/sr500000_xpps4000_h512_wHam/img/T_BCI_E1_Jt1_15_06_06_035_000070_UPS.htk",
+    "simple_call_seq/audio/parts_pl30.0ms_s5.0ms_cl60%/sr500000_xpps4000_h512_wHam/img/T_BCI_E1_Jt1_15_07_02_018_000165_UPS.htk",
+    "simple_call_seq/audio/parts_pl30.0ms_s5.0ms_cl60%/sr500000_xpps4000_h512_wHam/img/B2_C_TR_Jt5_16_07_10_034_000755_none.htk",
+    "simple_call_seq/audio/parts_pl30.0ms_s5.0ms_cl60%/sr500000_xpps4000_h512_wHam/img/C_TO_Jt1_16_06_20_015_045980_none.htk",
+    "simple_call_seq/audio/parts_pl30.0ms_s5.0ms_cl60%/sr500000_xpps4000_h512_wHam/img/C_TO_Jt1_16_06_20_015_062590_none.htk",
+    "simple_call_seq/audio/parts_pl30.0ms_s5.0ms_cl60%/sr500000_xpps4000_h512_wHam/img/C_TO_Jt1_16_06_20_029_475760_none.htk",
+    "simple_call_seq/audio/parts_pl30.0ms_s5.0ms_cl60%/sr500000_xpps4000_h512_wHam/img/C_TO_Jt2_16_06_12_018_017810_none.htk",
+    "simple_call_seq/audio/parts_pl30.0ms_s5.0ms_cl60%/sr500000_xpps4000_h512_wHam/img/B2_C_TR_Jt5_16_07_10_034_000440_B2.htk",
+    "simple_call_seq/audio/parts_pl30.0ms_s5.0ms_cl60%/sr500000_xpps4000_h512_wHam/img/B2_C_TR_Jt5_16_07_10_034_001065_B2.htk",
+    "simple_call_seq/audio/parts_pl30.0ms_s5.0ms_cl60%/sr500000_xpps4000_h512_wHam/img/B2_C_TR_Jt5_16_07_10_034_001635_B2.htk",
+    "simple_call_seq/audio/parts_pl30.0ms_s5.0ms_cl60%/sr500000_xpps4000_h512_wHam/img/C_TO_Jt1_16_06_20_029_475580_B2.htk",
+    "simple_call_seq/audio/parts_pl30.0ms_s5.0ms_cl60%/sr500000_xpps4000_h512_wHam/img/C_TO_Jt2_16_06_12_018_018020_B2.htk",
+    "simple_call_seq/audio/parts_pl30.0ms_s5.0ms_cl60%/sr500000_xpps4000_h512_wHam/img/C_TO_Jt2_16_06_20_018_047205_B2.htk",
+    "simple_call_seq/audio/parts_pl30.0ms_s5.0ms_cl60%/sr500000_xpps4000_h512_wHam/img/C_TO_Jt2_16_06_25_016_029565_B2.htk",
+    "simple_call_seq/audio/parts_pl30.0ms_s5.0ms_cl60%/sr500000_xpps4000_h512_wHam/img/C_TO_Jt2_16_06_25_016_029745_B2.htk",
+    "simple_call_seq/audio/parts_pl30.0ms_s5.0ms_cl60%/sr500000_xpps4000_h512_wHam/img/C_TO_Jt1_16_06_20_015_046195_B4.htk",
+    "simple_call_seq/audio/parts_pl30.0ms_s5.0ms_cl60%/sr500000_xpps4000_h512_wHam/img/C_TO_Jt2_16_06_20_018_047575_B4.htk",
+    "simple_call_seq/audio/parts_pl30.0ms_s5.0ms_cl60%/sr500000_xpps4000_h512_wHam/img/C_TO_Jt2_16_06_25_016_014995_B4.htk",
+    "simple_call_seq/audio/parts_pl30.0ms_s5.0ms_cl60%/sr500000_xpps4000_h512_wHam/img/C_TO_Jt3_16_06_18_006_029135_B4.htk",
+    "simple_call_seq/audio/parts_pl30.0ms_s5.0ms_cl60%/sr500000_xpps4000_h512_wHam/img/C_TO_Jt3_16_06_20_017_007130_B4.htk",
+    "simple_call_seq/audio/parts_pl30.0ms_s5.0ms_cl60%/sr500000_xpps4000_h512_wHam/img/C_TO_Jt3_16_07_09_018_037990_B4.htk",
+    "simple_call_seq/audio/parts_pl30.0ms_s5.0ms_cl60%/sr500000_xpps4000_h512_wHam/img/C_TO_Jt3_16_07_11_009_267730_B4.htk",
+    "simple_call_seq/audio/parts_pl30.0ms_s5.0ms_cl60%/sr500000_xpps4000_h512_wHam/img/C_TR_Jt1_16_06_02_109_019230_B4.htk",
+    "simple_call_seq/audio/parts_pl30.0ms_s5.0ms_cl60%/sr500000_xpps4000_h512_wHam/img/C_TR_Jt1_16_06_02_109_019365_B4.htk",
+    "simple_call_seq/audio/parts_pl30.0ms_s5.0ms_cl60%/sr500000_xpps4000_h512_wHam/img/C_TR_Jt4_16_06_11_013_161910_B4.htk",
+    "simple_call_seq/audio/parts_pl30.0ms_s5.0ms_cl60%/sr500000_xpps4000_h512_wHam/img/C_TR_Jt4_16_06_19_013_012110_B4.htk",
+    "simple_call_seq/audio/parts_pl30.0ms_s5.0ms_cl60%/sr500000_xpps4000_h512_wHam/img/C_TR_Jt4_16_06_19_013_012210_B4.htk",
+    "simple_call_seq/audio/parts_pl30.0ms_s5.0ms_cl60%/sr500000_xpps4000_h512_wHam/img/C_TR_Jt5_16_06_15_047_012575_B4.htk",
+    "simple_call_seq/audio/parts_pl30.0ms_s5.0ms_cl60%/sr500000_xpps4000_h512_wHam/img/C_TR_Jt6_16_06_19_077_038315_B4.htk",
+    "simple_call_seq/audio/parts_pl30.0ms_s5.0ms_cl60%/sr500000_xpps4000_h512_wHam/img/C_TR_Jt6_16_07_12_017_175625_B4.htk",
+    "simple_call_seq/audio/parts_pl30.0ms_s5.0ms_cl60%/sr500000_xpps4000_h512_wHam/img/C_TR_Jt8_16_06_17_019_007355_B4.htk",
+    "simple_call_seq/audio/parts_pl30.0ms_s5.0ms_cl60%/sr500000_xpps4000_h512_wHam/img/C_TR_Jt8_16_07_07_020_066110_B4.htk",
+    "simple_call_seq/audio/parts_pl30.0ms_s5.0ms_cl60%/sr500000_xpps4000_h512_wHam/img/C_TR_Jt8_16_07_07_020_066615_B4.htk",
+    "simple_call_seq/audio/parts_pl30.0ms_s5.0ms_cl60%/sr500000_xpps4000_h512_wHam/img/C_TR_Jt8_16_07_12_063_076745_B4.htk",
+    "simple_call_seq/audio/parts_pl30.0ms_s5.0ms_cl60%/sr500000_xpps4000_h512_wHam/img/C_TO_Jt2_16_07_06_015_122095_B3.htk",
+    "simple_call_seq/audio/parts_pl30.0ms_s5.0ms_cl60%/sr500000_xpps4000_h512_wHam/img/C_TO_Jt2_16_07_06_015_122225_B3.htk",
+    "simple_call_seq/audio/parts_pl30.0ms_s5.0ms_cl60%/sr500000_xpps4000_h512_wHam/img/C_TO_Jt3_16_06_20_017_007535_B3.htk",
+    "simple_call_seq/audio/parts_pl30.0ms_s5.0ms_cl60%/sr500000_xpps4000_h512_wHam/img/C_TO_Jt3_16_07_11_009_297890_B3.htk",
+    "simple_call_seq/audio/parts_pl30.0ms_s5.0ms_cl60%/sr500000_xpps4000_h512_wHam/img/C_TO_Jt3_16_07_11_009_298725_B3.htk",
+    "simple_call_seq/audio/parts_pl30.0ms_s5.0ms_cl60%/sr500000_xpps4000_h512_wHam/img/C_TR_Jt1_16_06_07_058_000905_B3.htk",
+    "simple_call_seq/audio/parts_pl30.0ms_s5.0ms_cl60%/sr500000_xpps4000_h512_wHam/img/C_TR_Jt3_16_06_16_013_066985_B3.htk",
+    "simple_call_seq/audio/parts_pl30.0ms_s5.0ms_cl60%/sr500000_xpps4000_h512_wHam/img/C_TR_Jt4_16_06_11_013_096220_B3.htk",
+    "simple_call_seq/audio/parts_pl30.0ms_s5.0ms_cl60%/sr500000_xpps4000_h512_wHam/img/C_TR_Jt4_16_06_19_013_011780_B3.htk",
+    "simple_call_seq/audio/parts_pl30.0ms_s5.0ms_cl60%/sr500000_xpps4000_h512_wHam/img/C_TR_Jt4_16_06_19_013_026710_B3.htk",
+    "simple_call_seq/audio/parts_pl30.0ms_s5.0ms_cl60%/sr500000_xpps4000_h512_wHam/img/C_TR_Jt4_16_06_23_057_154880_B3.htk",
+    "simple_call_seq/audio/parts_pl30.0ms_s5.0ms_cl60%/sr500000_xpps4000_h512_wHam/img/C_TR_Jt4_16_06_25_005_061640_B3.htk",
+    "simple_call_seq/audio/parts_pl30.0ms_s5.0ms_cl60%/sr500000_xpps4000_h512_wHam/img/C_TR_Jt4_16_06_25_005_061680_B3.htk",
+    "simple_call_seq/audio/parts_pl30.0ms_s5.0ms_cl60%/sr500000_xpps4000_h512_wHam/img/C_TR_Jt5_16_06_15_047_013380_B3.htk",
+    "simple_call_seq/audio/parts_pl30.0ms_s5.0ms_cl60%/sr500000_xpps4000_h512_wHam/img/C_TR_Jt5_16_06_17_024_045795_B3.htk",
+    "simple_call_seq/audio/parts_pl30.0ms_s5.0ms_cl60%/sr500000_xpps4000_h512_wHam/img/C_TR_Jt5_16_06_17_024_045835_B3.htk",
+    "simple_call_seq/audio/parts_pl30.0ms_s5.0ms_cl60%/sr500000_xpps4000_h512_wHam/img/C_TR_Jt5_16_06_19_071_156090_B3.htk",
+    "simple_call_seq/audio/parts_pl30.0ms_s5.0ms_cl60%/sr500000_xpps4000_h512_wHam/img/C_TR_Jt5_16_06_21_008_068995_B3.htk",
+    "simple_call_seq/audio/parts_pl30.0ms_s5.0ms_cl60%/sr500000_xpps4000_h512_wHam/img/C_TR_Jt5_16_06_23_025_048575_B3.htk",
+    "simple_call_seq/audio/parts_pl30.0ms_s5.0ms_cl60%/sr500000_xpps4000_h512_wHam/img/VSV_C_TO_Jt2_16_06_20_018_min62_000115_VSV.htk",
+    "simple_call_seq/audio/parts_pl30.0ms_s5.0ms_cl60%/sr500000_xpps4000_h512_wHam/img/VSV_C_TO_Jt2_16_06_26_009_000500_VSV.htk",
+    "simple_call_seq/audio/parts_pl30.0ms_s5.0ms_cl60%/sr500000_xpps4000_h512_wHam/img/VSV_C_TO_Jt2_16_06_26_009_000615_VSV.htk",
+    "simple_call_seq/audio/parts_pl30.0ms_s5.0ms_cl60%/sr500000_xpps4000_h512_wHam/img/VSV_C_TO_Jt2_16_06_26_010_min289_000080_VSV.htk",
+    "simple_call_seq/audio/parts_pl30.0ms_s5.0ms_cl60%/sr500000_xpps4000_h512_wHam/img/VSV_C_TO_Jt3_16_07_04_021_min83_000030_VSV.htk",
+    "simple_call_seq/audio/parts_pl30.0ms_s5.0ms_cl60%/sr500000_xpps4000_h512_wHam/img/VSV_C_TO_Jt3_16_07_06_006_min199_000085_VSV.htk",
+    "simple_call_seq/audio/parts_pl30.0ms_s5.0ms_cl60%/sr500000_xpps4000_h512_wHam/img/VSV_C_TR_Jt5_16_06_21_008_min125_000070_VSV.htk",
+    "simple_call_seq/audio/parts_pl30.0ms_s5.0ms_cl60%/sr500000_xpps4000_h512_wHam/img/VSV_C_TR_Jt6_16_06_15_082_min153_000010_VSV.htk",
+    "simple_call_seq/audio/parts_pl30.0ms_s5.0ms_cl60%/sr500000_xpps4000_h512_wHam/img/VSV_C_TR_Jt6_16_06_23_078_min157_000020_VSV.htk",
+    "simple_call_seq/audio/parts_pl30.0ms_s5.0ms_cl60%/sr500000_xpps4000_h512_wHam/img/VSV_C_TR_Jt7_16_06_19_061_min89_000000_VSV.htk",
+    "simple_call_seq/audio/parts_pl30.0ms_s5.0ms_cl60%/sr500000_xpps4000_h512_wHam/img/VSV_C_TR_Jt7_16_07_07_037_min137_000010_VSV.htk",
+    "simple_call_seq/audio/parts_pl30.0ms_s5.0ms_cl60%/sr500000_xpps4000_h512_wHam/img/VS_C_TO_Jt2_16_06_12_018_min15_000180_VS.htk",
+    "simple_call_seq/audio/parts_pl30.0ms_s5.0ms_cl60%/sr500000_xpps4000_h512_wHam/img/VS_C_TO_Jt2_16_06_26_010_000070_VS.htk",
+    "simple_call_seq/audio/parts_pl30.0ms_s5.0ms_cl60%/sr500000_xpps4000_h512_wHam/img/VS_C_TO_Jt2_16_06_26_010_000335_VS.htk",
+    "simple_call_seq/audio/parts_pl30.0ms_s5.0ms_cl60%/sr500000_xpps4000_h512_wHam/img/VS_C_TO_Jt2_16_06_26_010_min297_000010_VS.htk",
+    "simple_call_seq/audio/parts_pl30.0ms_s5.0ms_cl60%/sr500000_xpps4000_h512_wHam/img/VS_C_TO_Jt2_16_07_04_023_min166_000030_VS.htk",
+    "simple_call_seq/audio/parts_pl30.0ms_s5.0ms_cl60%/sr500000_xpps4000_h512_wHam/img/VS_C_TR_Jt5_16_06_17_024_min77_000180_VS.htk",
+    "simple_call_seq/audio/parts_pl30.0ms_s5.0ms_cl60%/sr500000_xpps4000_h512_wHam/img/VS_C_TR_Jt5_16_06_19_071_min62_000175_VS.htk",
+    "simple_call_seq/audio/parts_pl30.0ms_s5.0ms_cl60%/sr500000_xpps4000_h512_wHam/img/VS_C_TR_Jt5_16_07_12_021_2_min23_000040_VS.htk",
+    "simple_call_seq/audio/parts_pl30.0ms_s5.0ms_cl60%/sr500000_xpps4000_h512_wHam/img/VS_C_TR_Jt5_16_07_12_021_2_min98_000180_VS.htk",
+    "simple_call_seq/audio/parts_pl30.0ms_s5.0ms_cl60%/sr500000_xpps4000_h512_wHam/img/VS_C_TR_Jt5_16_07_20_033_min75_000115_VS.htk",
+    "simple_call_seq/audio/parts_pl30.0ms_s5.0ms_cl60%/sr500000_xpps4000_h512_wHam/img/T_BCI_E1_Jt1_15_05_31_004_000300_UPS.htk",
+    "simple_call_seq/audio/parts_pl30.0ms_s5.0ms_cl60%/sr500000_xpps4000_h512_wHam/img/T_BCI_E1_Jt1_15_06_13_015_000145_UPS.htk"
+  ],
+  "env": {
+    "os": "Linux",
+    "platform": "Linux-3.10.0-1127.19.1.el7.x86_64-x86_64-with-glibc2.10",
+    "sox": "14.4.2",
+    "java": [
+      "openjdk version \"1.8.0_262\"",
+      "OpenJDK Runtime Environment (build 1.8.0_262-b10)",
+      "OpenJDK 64-Bit Server VM (build 25.262-b10, mixed mode)"
+    ],
+    "keras": "2.4.0",
+    "tf": "2.3.1",
+    "gpu": "device: 0, name: Tesla P100-PCIE-12GB, pci bus id: 0000:05:00.0, compute capability: 6.0"
+  },
+  "pipeline": [
+    {
+      "task": "AudioLoadTask",
+      "props": {
+        "mdb": "simple_call_seq/metadata.json",
+        "dataset_name": "simple_call_seq",
+        "source": "simple_call_seq/audio"
+      }
+    },
+    {
+      "task": "SplitIntoPartsTask",
+      "props": {
+        "part_length": 0.03,
+        "strides": 0.005,
+        "label_min_cover_length": 0.6
+      }
+    },
+    {
+      "task": "CreateSpectrogramTask",
+      "props": {
+        "sampling_rate": 500000,
+        "x_pixels_per_sec": 4000,
+        "height": 512,
+        "window": "Ham"
+      }
+    },
+    {
+      "task": "ExtractPixelsTask",
+      "props": {}
+    },
+    {
+      "task": "KFoldSeparationTask",
+      "props": {
+        "k": 8,
+        "val_bins": 1,
+        "test_bins": 2,
+        "n": 5
+      }
+    },
+    {
+      "task": "CreateNNModelTask",
+      "props": {
+        "name": "cnn_2d_scs_r3_p30s5l60%_raw_100",
+        "model": {
+          "name": "sequential",
+          "layers": [
+            {
+              "class_name": "InputLayer",
+              "config": {
+                "batch_input_shape": [
+                  null,
+                  120,
+                  512,
+                  1
+                ],
+                "dtype": "float32",
+                "sparse": false,
+                "ragged": false,
+                "name": "conv2d_input"
+              }
+            },
+            {
+              "class_name": "Conv2D",
+              "config": {
+                "name": "conv2d",
+                "trainable": true,
+                "batch_input_shape": [
+                  null,
+                  120,
+                  512,
+                  1
+                ],
+                "dtype": "float32",
+                "filters": 32,
+                "kernel_size": [
+                  3,
+                  3
+                ],
+                "strides": [
+                  1,
+                  1
+                ],
+                "padding": "valid",
+                "data_format": "channels_last",
+                "dilation_rate": [
+                  1,
+                  1
+                ],
+                "groups": 1,
+                "activation": "relu",
+                "use_bias": true,
+                "kernel_initializer": {
+                  "class_name": "GlorotUniform",
+                  "config": {
+                    "seed": null
+                  }
+                },
+                "bias_initializer": {
+                  "class_name": "Zeros",
+                  "config": {}
+                },
+                "kernel_regularizer": null,
+                "bias_regularizer": null,
+                "activity_regularizer": null,
+                "kernel_constraint": null,
+                "bias_constraint": null
+              }
+            },
+            {
+              "class_name": "MaxPooling2D",
+              "config": {
+                "name": "max_pooling2d",
+                "trainable": true,
+                "dtype": "float32",
+                "pool_size": [
+                  2,
+                  2
+                ],
+                "padding": "valid",
+                "strides": [
+                  2,
+                  2
+                ],
+                "data_format": "channels_last"
+              }
+            },
+            {
+              "class_name": "Conv2D",
+              "config": {
+                "name": "conv2d_1",
+                "trainable": true,
+                "dtype": "float32",
+                "filters": 64,
+                "kernel_size": [
+                  3,
+                  3
+                ],
+                "strides": [
+                  1,
+                  1
+                ],
+                "padding": "valid",
+                "data_format": "channels_last",
+                "dilation_rate": [
+                  1,
+                  1
+                ],
+                "groups": 1,
+                "activation": "relu",
+                "use_bias": true,
+                "kernel_initializer": {
+                  "class_name": "GlorotUniform",
+                  "config": {
+                    "seed": null
+                  }
+                },
+                "bias_initializer": {
+                  "class_name": "Zeros",
+                  "config": {}
+                },
+                "kernel_regularizer": null,
+                "bias_regularizer": null,
+                "activity_regularizer": null,
+                "kernel_constraint": null,
+                "bias_constraint": null
+              }
+            },
+            {
+              "class_name": "MaxPooling2D",
+              "config": {
+                "name": "max_pooling2d_1",
+                "trainable": true,
+                "dtype": "float32",
+                "pool_size": [
+                  2,
+                  2
+                ],
+                "padding": "valid",
+                "strides": [
+                  2,
+                  2
+                ],
+                "data_format": "channels_last"
+              }
+            },
+            {
+              "class_name": "Conv2D",
+              "config": {
+                "name": "conv2d_2",
+                "trainable": true,
+                "dtype": "float32",
+                "filters": 64,
+                "kernel_size": [
+                  3,
+                  3
+                ],
+                "strides": [
+                  1,
+                  1
+                ],
+                "padding": "valid",
+                "data_format": "channels_last",
+                "dilation_rate": [
+                  1,
+                  1
+                ],
+                "groups": 1,
+                "activation": "relu",
+                "use_bias": true,
+                "kernel_initializer": {
+                  "class_name": "GlorotUniform",
+                  "config": {
+                    "seed": null
+                  }
+                },
+                "bias_initializer": {
+                  "class_name": "Zeros",
+                  "config": {}
+                },
+                "kernel_regularizer": null,
+                "bias_regularizer": null,
+                "activity_regularizer": null,
+                "kernel_constraint": null,
+                "bias_constraint": null
+              }
+            },
+            {
+              "class_name": "MaxPooling2D",
+              "config": {
+                "name": "max_pooling2d_2",
+                "trainable": true,
+                "dtype": "float32",
+                "pool_size": [
+                  2,
+                  2
+                ],
+                "padding": "valid",
+                "strides": [
+                  2,
+                  2
+                ],
+                "data_format": "channels_last"
+              }
+            },
+            {
+              "class_name": "Conv2D",
+              "config": {
+                "name": "conv2d_3",
+                "trainable": true,
+                "dtype": "float32",
+                "filters": 128,
+                "kernel_size": [
+                  3,
+                  3
+                ],
+                "strides": [
+                  1,
+                  1
+                ],
+                "padding": "valid",
+                "data_format": "channels_last",
+                "dilation_rate": [
+                  1,
+                  1
+                ],
+                "groups": 1,
+                "activation": "relu",
+                "use_bias": true,
+                "kernel_initializer": {
+                  "class_name": "GlorotUniform",
+                  "config": {
+                    "seed": null
+                  }
+                },
+                "bias_initializer": {
+                  "class_name": "Zeros",
+                  "config": {}
+                },
+                "kernel_regularizer": null,
+                "bias_regularizer": null,
+                "activity_regularizer": null,
+                "kernel_constraint": null,
+                "bias_constraint": null
+              }
+            },
+            {
+              "class_name": "MaxPooling2D",
+              "config": {
+                "name": "max_pooling2d_3",
+                "trainable": true,
+                "dtype": "float32",
+                "pool_size": [
+                  2,
+                  2
+                ],
+                "padding": "valid",
+                "strides": [
+                  2,
+                  2
+                ],
+                "data_format": "channels_last"
+              }
+            },
+            {
+              "class_name": "Flatten",
+              "config": {
+                "name": "flatten",
+                "trainable": true,
+                "dtype": "float32",
+                "data_format": "channels_last"
+              }
+            },
+            {
+              "class_name": "Dense",
+              "config": {
+                "name": "dense",
+                "trainable": true,
+                "dtype": "float32",
+                "units": 1024,
+                "activation": "relu",
+                "use_bias": true,
+                "kernel_initializer": {
+                  "class_name": "GlorotUniform",
+                  "config": {
+                    "seed": null
+                  }
+                },
+                "bias_initializer": {
+                  "class_name": "Zeros",
+                  "config": {}
+                },
+                "kernel_regularizer": null,
+                "bias_regularizer": null,
+                "activity_regularizer": null,
+                "kernel_constraint": null,
+                "bias_constraint": null
+              }
+            },
+            {
+              "class_name": "Dropout",
+              "config": {
+                "name": "dropout",
+                "trainable": true,
+                "dtype": "float32",
+                "rate": 0.5,
+                "noise_shape": null,
+                "seed": null
+              }
+            },
+            {
+              "class_name": "Dense",
+              "config": {
+                "name": "dense_1",
+                "trainable": true,
+                "dtype": "float32",
+                "units": 7,
+                "activation": "softmax",
+                "use_bias": true,
+                "kernel_initializer": {
+                  "class_name": "GlorotUniform",
+                  "config": {
+                    "seed": null
+                  }
+                },
+                "bias_initializer": {
+                  "class_name": "Zeros",
+                  "config": {}
+                },
+                "kernel_regularizer": null,
+                "bias_regularizer": null,
+                "activity_regularizer": null,
+                "kernel_constraint": null,
+                "bias_constraint": null
+              }
+            }
+          ]
+        },
+        "prepare_args": {},
+        "fit_args": null
+      }
+    },
+    {
+      "task": "TrainNNModelTask",
+      "props": {
+        "epochs": 100,
+        "save_every": 100
+      }
+    },
+    {
+      "task": "RecognizeNNTask",
+      "props": {
+        "validate": [
+          {
+            "task": "AudioLoadTask",
+            "props": {
+              "mdb": "simple_call_seq/metadata.json",
+              "dataset_name": "simple_call_seq",
+              "source": "simple_call_seq/audio"
+            }
+          },
+          {
+            "task": "SplitIntoPartsTask",
+            "props": {
+              "part_length": 0.03,
+              "strides": 0.005,
+              "label_min_cover_length": 0.6
+            }
+          },
+          {
+            "task": "CreateSpectrogramTask",
+            "props": {
+              "sampling_rate": 500000,
+              "x_pixels_per_sec": 4000,
+              "height": 512,
+              "window": "Ham"
+            }
+          },
+          {
+            "task": "ExtractPixelsTask",
+            "props": {}
+          },
+          {
+            "task": "KFoldSeparationTask",
+            "props": {
+              "k": 8,
+              "val_bins": 1,
+              "test_bins": 2,
+              "n": 5
+            }
+          }
+        ],
+        "model_path": "simple_call_seq/models/nn_cnn_2d_scs_r3_p30s5l60%_raw_100/3ce311e6f776a352e3bbc7d1e92aed57c96940fe/best_val_acc_e025_v0.8765.h5"
+      }
+    },
+    {
+      "task": "ExtractionJSONTask",
+      "props": {
+        "report_name": []
+      }
+    }
+  ]
+}
